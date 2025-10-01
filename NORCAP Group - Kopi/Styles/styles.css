@@ -1,0 +1,147 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: linear-gradient(to right, #2E4E7A, #1A2B3C)
+}
+
+/* Navigation */
+header {
+  background: linear-gradient(to right, #2E4E7A, #1A2B3C);
+  color: #888888;
+  padding: 1rem 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(10, 130, 200);
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffffff;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #2E4E7A, #1A2B3C);
+  color: #888888;
+}
+
+.hero h2 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.hero p {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Produkter */
+.forside-intro {
+  text-align: center;
+  text-size-adjust: 100%;
+  padding: 3rem;
+  background: linear-gradient(to right, #2E4E7A, #1A2B3C);
+  color: #888888;
+}
+
+.text-container {
+  max-width: 800px; /* Begræns bredden for bedre læsbarhed */
+  margin: 0 auto;   /* Centrer teksten */
+  font-size: 1.2rem; /* Juster skriftstørrelsen for bedre læsbarhed */
+  line-height: 1.6; /* Øg linjehøjden for bedre læsbarhed */
+  color: #888888;      /* Lysere tekstfarve for bedre kontrast */
+}
+
+.forside-list {
+  display: flex;       
+  gap: 50px;
+  padding: 0 250px;
+  background: linear-gradient(to right, #2E4E7A, #1A2B3C);
+}
+
+.forside-list > div {
+  flex: 1;
+  background: none;
+  padding: 20px;
+  border: 1px solid transparent;
+  text-align: center;
+  border-radius:8px;
+
+  /* gør dem mere rektangulære */
+  height: 550px;             /* juster højden */
+  display: flex;             /* så teksten kan centreres */
+  flex-direction: column;
+  justify-content: center;   /* centrer lodret */
+  width: 30px;              /* fyld hele bredden af containeren */
+}
+
+
+.forside-list a {
+  flex: 1;
+  height: 150px;
+  background-color: #f2f2f2;
+  border: 2px solid #dbdbdb;
+  color: black;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: background 0.3s;
+  height: 50px;
+}
+
+.forside-list a:hover {
+  background-color: #dbdbdb; /* mørkere ved hover */
+  border: 2px solid #ccc;
+}
+
+@media (max-width: 768px) {
+  .forside-list {
+    flex-direction: column;  /* på små skærme: læg dem lodret */
+  }
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(to right, #2E4E7A, #1A2B3C);
+  color: #888888;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 4rem;
+}

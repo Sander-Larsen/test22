@@ -1,0 +1,159 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: linear-gradient(to right, #2E4E7A, #1A2B3C);
+}
+
+
+/* Navigation */
+header {
+  background: linear-gradient(to right, #2E4E7A, #1A2B3C);
+  color: #888888;
+  padding: 1rem 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(10, 130, 200);
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ff9800;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #2E4E7A, #1A2B3C);
+  color: #888888;
+}
+
+.hero h2 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.hero p {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Kontakt */
+
+.kontakt-intro {
+  text-align: center;
+  padding: 3rem;
+  background: linear-gradient(to right, #2E4E7A, #1A2B3C);
+  color: #888888;
+}
+
+.text-container {
+  max-width: 800px; /* Begræns bredden for bedre læsbarhed */
+  margin: 0 auto;   /* Centrer teksten */
+  font-size: 1.2rem; /* Juster skriftstørrelsen for bedre læsbarhed */
+  line-height: 1.6; /* Øg linjehøjden for bedre læsbarhed */
+  color: #888888;      /* Lysere tekstfarve for bedre kontrast */
+}
+
+.contact-sheet {
+  background-color: #fff;
+  padding: 3rem 2rem;
+  margin: 4rem auto;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.contact-sheet h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.contact-sheet form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-sheet label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-sheet input,
+.contact-sheet textarea {
+  padding: 0.8rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.contact-sheet input:focus,
+.contact-sheet textarea:focus {
+  border-color: rgb(10, 130, 200);
+  outline: none;
+}
+
+.contact-sheet textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contact-sheet button {
+  padding: 0.8rem;
+  background-color: rgb(10, 130, 200);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.contact-sheet button:hover {
+  background-color: #008000;
+}
+
+
+/* Footer */
+footer {
+  background: linear-gradient(to right, #2E4E7A, #1A2B3C);
+  color: #888888;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 4rem;
+}
